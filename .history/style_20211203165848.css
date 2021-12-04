@@ -1,0 +1,27 @@
+/* * {
+    border: 1px solid red;
+  } */
+
+.fixed-top-2 {
+    margin-top: 166px;
+    /* padding: 50px; */
+    /* padding: 50px;  */
+}
+
+.fixed-top-1 {
+    padding: 50px; 
+    border: 1rem solid;
+}
+
+body { padding-top: 100px; }
+
+#myWordForm { padding-top: 176px; }
+
+#poetsToolBox {
+    background-image: url(for_the_header_i_think_smaller.png);
+    /* padding: 50px; */
+} 
+
+#poetsLink {
+    /* padding: 50px; */
+}

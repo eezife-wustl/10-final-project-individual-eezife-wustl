@@ -1,0 +1,32 @@
+/* * {
+    border: 1px solid red;
+  } */
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/Jost/TrueType/Jost-600-Semi.ttf") format("woff2"),
+         url("/Jost/TrueType") format("woff");
+  }
+.fixed-top-2 {
+    margin-top: 176px;
+    /* padding: 50px; */
+    /* padding: 50px;  */
+}
+
+.fixed-top-1 {
+    padding: 50px; 
+    border: 1rem solid;
+}
+
+body { padding-top: 100px; }
+
+#myWordForm { padding-top: 176px; }
+
+#poetsToolBox {
+    background-image: url(for_the_header_i_think_smaller.png);
+    /* padding: 50px; */
+} 
+
+#poetsLink {
+    /* padding: 50px; */
+}

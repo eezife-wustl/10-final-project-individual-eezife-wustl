@@ -1,0 +1,50 @@
+* {
+    border: 1px solid red;
+  }
+
+/* @font-face {
+    font-family: 'Jost';
+    src: url('Jost-600-Semi.ttf') format('truetype');
+  } */
+  html {
+    font-size: 62.5%;
+    /*10px*/
+  }
+
+@font-face {
+    font-family: 'Jost Semi';
+    src: url('./Jost/TrueType/Jost-600-Semi.ttf') format('truetype');      
+}
+
+
+.fixed-top-2 {
+    margin-top: 25rem;
+    /* padding: 50px; */
+    /* padding: 50px;  */
+}
+
+.fixed-top-1 {
+    padding: 5rem; 
+    border: 1rem solid;
+}
+
+body { padding-top: 10rem; }
+
+#myWordForm { padding-top: 17.6rem; 
+
+}
+
+#poetsToolBox {
+    background-image: url(for_the_header_i_think_smaller.png);
+    /* padding: 50px; */
+} 
+
+.navbar-brand {
+    font-family: 'Jost Semi';
+    letter-spacing: .5rem;
+    font-size: 8.5em;
+}
+
+#poetsLink {
+    /* padding: 50px; */
+}

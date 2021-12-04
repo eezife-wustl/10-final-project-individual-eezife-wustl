@@ -1,0 +1,16 @@
+.fixed-top-2 {
+    margin-top: 106px;
+}
+
+body { padding-top: 100px; }
+
+#myWordForm { padding-top: 100px; }
+
+#poetsToolBox {
+    background-image: url(for_the_header_i_think_smaller.png);
+    /* padding: 50px; */
+} 
+
+#poetsLink {
+    padding: 50px;
+}

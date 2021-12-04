@@ -1,0 +1,39 @@
+/* * {
+    border: 1px solid red;
+  } */
+
+@font-face {
+    font-family: "Jost";
+    src: url("10-final-project-individual-eezife-wustl/Jost/TrueType/Jost-600-Semi.ttf") format("truetype"),
+         url("10-final-project-individual-eezife-wustl/Jost/TrueType/Jost-500-medium.ttf") format("truetype");
+  }
+  
+.fixed-top-2 {
+    margin-top: 176px;
+    /* padding: 50px; */
+    /* padding: 50px;  */
+}
+
+.fixed-top-1 {
+    padding: 50px; 
+    border: 1rem solid;
+}
+
+body { padding-top: 100px; }
+
+#myWordForm { padding-top: 176px; 
+
+}
+
+#poetsToolBox {
+    background-image: url(for_the_header_i_think_smaller.png);
+    /* padding: 50px; */
+} 
+
+a {
+    font: "Jost";
+}
+
+#poetsLink {
+    /* padding: 50px; */
+}

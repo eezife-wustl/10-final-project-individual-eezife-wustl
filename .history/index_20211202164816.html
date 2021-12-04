@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title> Javascript </title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href='style.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div id="imagegallery" class="d-flex flex-wrap align-items-center justify-content-center container-fluid">
+            <div class="no-gutters row">
+                <div class="col-auto my-auto px-0">
+                    <button type="button" class="btn btn-outline-dark" id="leftbutton">&#x3c;</button>
+                </div>
+                <div class="col">
+                    <div id="pics"> 
+                        <img src="tinashe1.jpg" class="my-3" id="setImage" alt="Instagram_simple_icon" style="width:35rem; height:35rem">
+                        <button style="display: none;" id="X" type="button"> X </button>
+                        <p id="num" class="text-center"> </p>
+                    </div>
+                </div>
+                <div class="col-auto my-auto px-0">
+                    <button type="button" class="btn btn-outline-dark" id="rightbutton">&#x3e;</button>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            var num = 1;
+            var yesImg = "tinashe" + num + ".jpg";
+            document.getElementById("num").innerHTML = num + " / 12";
+
+            function imageChange() {
+                yesImg = "tinashe" + num + ".jpg";
+                document.getElementById("setImage").setAttribute("src", yesImg);
+            }
+
+            function leftClick() {
+                if (num > 1) {
+                    num--;
+                    imageChange();
+                    document.getElementById("num").innerHTML = num + " / 12";
+                }
+            }
+
+            function rightClick() {
+                if (num < 12) {
+                    num++;
+                    imageChange()
+                    document.getElementById("num").innerHTML = num + " / 12";
+                }
+            }
+
+            function imageSize() {
+                //document.getElementById("setImage").style.transform = "scale(1.4, 1.4) translateY(15%)";
+                //document.getElementById("setImage").setAttribute("width", "700rem");
+                //document.getElementById("setImage").setAttribute("height", "700rem");
+                document.getElementById("setImage").style.width = "45rem";
+                document.getElementById("setImage").style.height = "45rem";
+                //document.getElementById("setImage").setAttribute("height", "700rem");
+                document.getElementById("X").style.display = "inline";
+                //document.getElementById("setImage").style.transform = "";
+                //document.getElementById("setImage").style.marginTop = "10%";
+            }
+
+            function imageClose() {
+                //document.getElementById("setImage").setAttribute("width", "500rem");
+                //document.getElementById("setImage").setAttribute("height", "500rem");
+                document.getElementById("setImage").style.width = "35rem";
+                document.getElementById("setImage").style.height = "35rem";
+                document.getElementById("X").style.display = "none";
+            }
+
+            document.getElementById("leftbutton").addEventListener("click", leftClick);
+            document.getElementById("rightbutton").addEventListener("click", rightClick);
+            document.getElementById("setImage").addEventListener("click", imageSize);
+            document.getElementById("X").addEventListener("click", imageClose);
+        </script>
+    </body>
+</HTML>
