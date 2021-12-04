@@ -1,0 +1,120 @@
+/* * {
+    border: 1px solid red;
+  } */
+
+/* @font-face {
+    font-family: 'Jost';
+    src: url('Jost-600-Semi.ttf') format('truetype');
+  } */
+  html {
+    font-size: 62.5%;
+    /*10px*/
+  }
+
+@font-face {
+    font-family: 'Jost Heavy';
+    src: url('./Jost/TrueType/Jost-800-Heavy.ttf') format('truetype');      
+}
+
+@font-face {
+    font-family: 'Jost Semi';
+    src: url('./Jost/TrueType/Jost-600-Semi.ttf') format('truetype');      
+}
+
+@font-face {
+    font-family: 'Jost Light';
+    src: url('./Jost/TrueType/Jost-300-Light.ttf') format('truetype');      
+}
+
+
+.fixed-top-2 {
+    margin-top: 25rem;
+    /* padding: 50px; */
+    /* padding: 50px;  */
+}
+
+.fixed-top-1 {
+    padding: 5rem; 
+    border: 1rem solid;
+}
+
+body { padding-top: 10rem; 
+    background-image: url(for_the_background_i_think.png);
+}
+
+#myWordForm { padding-top: 23rem; 
+}
+
+#poetsToolBox {
+    background-image: url(for_the_header_i_think_smaller.png);
+    /* padding: 50px; */
+} 
+
+.navbar-brand {
+    font-family: 'Jost Semi';
+    letter-spacing: .5rem;
+    /* color: white; */
+    /* font-size: 8.5em; */
+}
+
+/*thank u stackoverflow:https://stackoverflow.com/questions/48716874/boostrap-navbar-how-to-change-text-color-on-navbar-brand-class*/
+.navbar-light .navbar-brand:hover  {
+    color: #f2f3f5;
+    transition: color 0.5s ease-out;
+}
+
+/* .navbar-brand:hover {
+    color: white;
+    transition-property: color;
+    transition-duration: 4s;
+    transition-delay: 2s;
+} */
+/*shoutout to: https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/ for the help*/
+/*small*/
+
+@media (min-width: 248px) {  
+    .navbar-brand {font-size:3rem;} 
+    .fixed-top-2 {margin-top: 16rem; }
+    #myWordForm { padding-top: 12rem; }
+}
+
+/*medium*/
+/* @media (min-width: 768px) {  
+    .navbar-brand {font-size:8rem;} 
+  } */
+
+/*large*/
+@media (min-width: 992px) { 
+    .navbar-brand {font-size:8.5rem;} 
+    .fixed-top-2 {margin-top: 25rem; }
+    #myWordForm { padding-top: 23rem; }
+  }
+
+.nav-link {
+    font-family: 'Jost Heavy';
+    letter-spacing: .2rem;
+    font-size: 1.5em;
+    color: #f2f3f5;
+}
+
+#poetsLink {
+    /* padding: 50px; */
+}
+
+#myWordForm {
+    font-family: 'Jost Light';
+    font-size: 3rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0px;
+    padding: 1rem;
+}
+
+#myWordForm > p {
+    margin-bottom: 1rem;
+    
+}
+
