@@ -21,12 +21,6 @@
     src: url('./Jost/TrueType/Jost-600-Semi.ttf') format('truetype');      
 }
 
-@font-face {
-    font-family: 'Jost Light';
-    src: url('./Jost/TrueType/Jost-300-Light.ttf') format('truetype');      
-}
-
-
 .fixed-top-2 {
     margin-top: 25rem;
     /* padding: 50px; */
@@ -42,7 +36,7 @@ body { padding-top: 10rem;
     background-image: url(for_the_background_i_think.png);
 }
 
-#myWordForm { padding-top: 23rem; 
+#myWordForm { padding-top: 27.6rem; 
 }
 
 #poetsToolBox {
@@ -53,29 +47,15 @@ body { padding-top: 10rem;
 .navbar-brand {
     font-family: 'Jost Semi';
     letter-spacing: .5rem;
-    /* color: white; */
     /* font-size: 8.5em; */
 }
 
-/*thank u stackoverflow:https://stackoverflow.com/questions/48716874/boostrap-navbar-how-to-change-text-color-on-navbar-brand-class*/
-.navbar-light .navbar-brand:hover  {
-    color: #f2f3f5;
-    transition: color 0.5s;
-}
-
-/* .navbar-brand:hover {
-    color: white;
-    transition-property: color;
-    transition-duration: 4s;
-    transition-delay: 2s;
-} */
 /*shoutout to: https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/ for the help*/
 /*small*/
 
 @media (min-width: 248px) {  
     .navbar-brand {font-size:3rem;} 
     .fixed-top-2 {margin-top: 16rem; }
-    #myWordForm { padding-top: 12rem; }
 }
 
 /*medium*/
@@ -87,7 +67,6 @@ body { padding-top: 10rem;
 @media (min-width: 992px) { 
     .navbar-brand {font-size:8.5rem;} 
     .fixed-top-2 {margin-top: 25rem; }
-    #myWordForm { padding-top: 23rem; }
   }
 
 .nav-link {
@@ -102,19 +81,14 @@ body { padding-top: 10rem;
 }
 
 #myWordForm {
-    font-family: 'Jost Light';
-    font-size: 3rem;
+    font-family: 'Jost Heavy';
+    font-size: 1.5em;
 }
 
 .btn {
     margin-top: 1rem;
-    font-size: 1.5rem;
-    border-radius: 0px;
-    padding: 1rem;
 }
 
-#myWordForm > p {
+#myWordForm > label {
     margin-bottom: 1rem;
-    
 }
-

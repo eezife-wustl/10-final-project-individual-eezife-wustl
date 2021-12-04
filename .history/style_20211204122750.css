@@ -113,6 +113,12 @@ body { padding-top: 10rem;
     padding: 1rem;
 }
 
+.btn .btn-dark .btn-lg  {
+    border: 1rem;
+    border-color: white;
+    transition: border 0.5s;
+}
+
 #myWordForm > p {
     margin-bottom: 1rem;
     

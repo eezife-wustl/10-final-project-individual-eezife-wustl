@@ -57,12 +57,6 @@ body { padding-top: 10rem;
     /* font-size: 8.5em; */
 }
 
-/*thank u stackoverflow:https://stackoverflow.com/questions/48716874/boostrap-navbar-how-to-change-text-color-on-navbar-brand-class*/
-.navbar-light .navbar-brand:hover  {
-    color: #f2f3f5;
-    transition: color 0.5s;
-}
-
 /* .navbar-brand:hover {
     color: white;
     transition-property: color;
@@ -118,3 +112,9 @@ body { padding-top: 10rem;
     
 }
 
+input[type=text] {
+    border: 3px solid black;
+    border-radius: 0px;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }

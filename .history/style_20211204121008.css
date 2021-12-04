@@ -53,22 +53,16 @@ body { padding-top: 10rem;
 .navbar-brand {
     font-family: 'Jost Semi';
     letter-spacing: .5rem;
-    /* color: white; */
+    transition: color 1s;
     /* font-size: 8.5em; */
 }
-
-/*thank u stackoverflow:https://stackoverflow.com/questions/48716874/boostrap-navbar-how-to-change-text-color-on-navbar-brand-class*/
-.navbar-light .navbar-brand:hover  {
-    color: #f2f3f5;
-    transition: color 0.5s;
+.navbar-brand > a {
+    
 }
-
-/* .navbar-brand:hover {
-    color: white;
-    transition-property: color;
-    transition-duration: 4s;
-    transition-delay: 2s;
-} */
+.navbar-brand > a:hover {
+    color: #f2f3f5;
+    /* font-size: 8.5em; */
+}
 /*shoutout to: https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/ for the help*/
 /*small*/
 
@@ -118,3 +112,9 @@ body { padding-top: 10rem;
     
 }
 
+input[type=text] {
+    border: 3px solid black;
+    border-radius: 0px;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }

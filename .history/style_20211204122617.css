@@ -113,6 +113,11 @@ body { padding-top: 10rem;
     padding: 1rem;
 }
 
+.btn:hover  {
+    border: 1rem;
+    transition: border 0.5s;
+}
+
 #myWordForm > p {
     margin-bottom: 1rem;
     
