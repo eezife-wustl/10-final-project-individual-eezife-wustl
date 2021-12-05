@@ -64,6 +64,7 @@ class App extends Component {
     .then((response) => response.json())
     .then(function(data) {
       stateObject.setState({myPoemWords: data});
+      console.alert("win!");
     })
     .catch(function(error) {
       console.log(error);

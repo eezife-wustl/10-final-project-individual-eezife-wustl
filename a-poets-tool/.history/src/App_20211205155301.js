@@ -64,6 +64,7 @@ class App extends Component {
     .then((response) => response.json())
     .then(function(data) {
       stateObject.setState({myPoemWords: data});
+      // console.log(data);
     })
     .catch(function(error) {
       console.log(error);
@@ -105,7 +106,7 @@ class App extends Component {
     .then((response) => response.json())
     .then(function(data) {
       stateObject.setState({myPoemWords: data});
-      stateObject.setState({randomPoemWords: _.shuffle(data).slice(0,10)});
+      stateObject.setState({randomPoemWords: _.shuffle(stateObject.myPoemWords).slice(0,10)});
       console.log(data);
     })
     .catch(function(error) {

@@ -64,6 +64,7 @@ class App extends Component {
     .then((response) => response.json())
     .then(function(data) {
       stateObject.setState({myPoemWords: data});
+      // console.log(data);
     })
     .catch(function(error) {
       console.log(error);
@@ -105,7 +106,6 @@ class App extends Component {
     .then((response) => response.json())
     .then(function(data) {
       stateObject.setState({myPoemWords: data});
-      stateObject.setState({randomPoemWords: _.shuffle(data).slice(0,10)});
       console.log(data);
     })
     .catch(function(error) {
@@ -115,7 +115,7 @@ class App extends Component {
 
 
     // this.setState({myPoemWords: _.shuffle(this.state.myPoemWords).slice(0,10)});
-    //this.setState({randomPoemWords: _.shuffle(this.state.myPoemWords).slice(0,10)});
+    this.setState({randomPoemWords: _.shuffle(this.state.myPoemWords).slice(0,10)});
     console.log(this.state.randomPoemWords);
     console.log(this.state.myPoemWords); 
   }
@@ -137,7 +137,7 @@ class App extends Component {
                   {/* <PoemTopic /> */}
                 </div>
                 <div className="row"> 
-                  <div className="col-md-6">
+                  <div className="col-md">
                     <PoemWords PoemStuff={this.state.myPoemForm}/>
                   </div>
                   <div className="col-md-6">
