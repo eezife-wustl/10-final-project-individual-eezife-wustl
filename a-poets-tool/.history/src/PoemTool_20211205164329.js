@@ -21,7 +21,7 @@ class PoemTool extends Component {
           <option defaultValue="Pick For Me">Pick For Me</option>
           <option value="Love">Love</option>
           <option value="Nature">Nature</option>
-          <option value="Gratitude">Gratitude</option>
+          <option value="Gratitude ">Gratitde</option>
           <option value="Humor">Humor</option>
           <option value="Joy">Joy</option>
           <option value="Passion">Passion</option>
