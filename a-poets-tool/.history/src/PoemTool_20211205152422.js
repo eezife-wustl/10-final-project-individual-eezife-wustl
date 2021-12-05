@@ -16,7 +16,7 @@ class PoemTool extends Component {
         ~ xoxo Erika
         </p>
       {/* love, nature, gratitude, humor, joy, passion, nostalgia, optimism, contentment, boredom, pessimism, frustration, random */}
-      <span> Select a Subject to Generate Words From: </span>
+      <span style={{ fontSize:'1.5rem' }}> Select a Subject to Generate Words From: </span>
       <select className="form-select form-select-lg" aria-label="Default select example" id="PoemTopic" onChange={this.props.onChange}>
           <option defaultValue="Pick For Me">Pick For Me</option>
           <option value="Love">Love</option>

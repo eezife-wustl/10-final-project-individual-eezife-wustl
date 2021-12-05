@@ -141,7 +141,7 @@ class App extends Component {
                     <PoemWords PoemStuff={this.state.myPoemForm}/>
                   </div>
                   <div className="col">
-                    <p id="myWords"> Drawing inspiration from these words: </p>
+                  <p id="myWords"> Drawing inspiration from these words: </p>
                     {
                       this.state.randomPoemWords.map((words) => 
                         <p key={words.word}>{words.word} </p>

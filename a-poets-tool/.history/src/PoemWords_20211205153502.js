@@ -12,6 +12,7 @@ class PoemWords extends Component {
       <div className="poemstuff">
           <p id="myWords"> Write a poem using this form: </p>
           <span> {this.props.PoemStuff} </span>
+          <p id="myWords"> Drawing inspiration from these words: </p>
       </div>
     );
   }

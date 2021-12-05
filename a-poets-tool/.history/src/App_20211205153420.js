@@ -136,19 +136,15 @@ class App extends Component {
                   <PoemTool onClick={this.handleSubmit} onChange={this.handleChange} PoemTopic={this.state.myPoemTopic}/>
                   {/* <PoemTopic /> */}
                 </div>
-                <div className="row"> 
-                  <div className="col">
-                    <PoemWords PoemStuff={this.state.myPoemForm}/>
-                  </div>
-                  <div className="col">
-                    <p id="myWords"> Drawing inspiration from these words: </p>
-                    {
-                      this.state.randomPoemWords.map((words) => 
-                        <p key={words.word}>{words.word} </p>
-                      )
-                    }
-                  </div>
-                  </div>
+                <div className="col">
+                  <PoemWords PoemStuff={this.state.myPoemForm}/>
+                </div>
+                <div className="col"></div>
+                  {
+                    this.state.randomPoemWords.map((words) => 
+                      <p key={words.word}>{words.word} </p>
+                    )
+                  }
               </div>
       </div>
     );
