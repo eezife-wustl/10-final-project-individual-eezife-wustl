@@ -1,0 +1,15 @@
+* {
+    border: 1px solid red;
+
+  }
+
+/* @font-face {
+    font-family: 'Jost';
+    src: url('Jost-600-Semi.ttf') format('truetype');
+  } */
+  html {
+    font-size: 62.5%;
+    /*10px*/
+  }
+
+
