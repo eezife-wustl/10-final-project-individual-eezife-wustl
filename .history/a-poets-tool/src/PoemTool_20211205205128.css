@@ -24,7 +24,7 @@
 
 #myWordForm {
     font-family: 'Jost Light';
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 4rem;
 }
 
@@ -33,8 +33,4 @@
     font-size: 1.5rem;
     border-radius: 0px;
     padding: 1rem;
-}
-
-.form-select {
-    font-size: 2rem;
 }
