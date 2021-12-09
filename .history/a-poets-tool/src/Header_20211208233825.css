@@ -1,0 +1,86 @@
+/* @font-face {
+    font-family: 'Jost';
+    src: url('Jost-600-Semi.ttf') format('truetype');
+  } */
+  html {
+    font-size: 62.5%;
+    /*10px*/
+  }
+
+@font-face {
+    font-family: 'Jost Heavy';
+    src: url('./Jost/TrueType/Jost-800-Heavy.ttf') format('truetype');      
+}
+
+@font-face {
+    font-family: 'Jost Semi';
+    src: url('./Jost/TrueType/Jost-600-Semi.ttf') format('truetype');      
+}
+
+@font-face {
+    font-family: 'Jost Light';
+    src: url('./Jost/TrueType/Jost-300-Light.ttf') format('truetype');      
+}
+
+.static-top-1 {
+    /* padding: 5rem;  */
+    border: 1rem solid;
+}
+
+body { 
+    background-image: url('./for_the_background_i_think.png');
+    background-attachment: fixed;
+}
+
+#poetsToolBox {
+    background-image: url('./for_the_header_i_think_smaller.png');
+    padding: 0rem;
+    /* padding: 50px; */
+} 
+
+.navbar-brand {
+    font-family: 'Jost Semi';
+    letter-spacing: 1rem;
+    /* color: white; */
+    /* font-size: 8.5em; */
+}
+
+/*thank u stackoverflow:https://stackoverflow.com/questions/48716874/boostrap-navbar-how-to-change-text-color-on-navbar-brand-class*/
+.navbar-light .navbar-brand:hover  {
+    color: #f2f3f5;
+    
+}
+
+.navbar-light .navbar-brand {
+    transition: color 0.5s ease-out;
+}
+
+/*shoutout to: https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/ for the help*/
+/*small*/
+@media (min-width: 248px) {  
+    .navbar-brand {font-size:3.5rem;} 
+    .static-top-2 {padding-top: 0rem; }
+    .static-top-1 {padding: 0rem; }
+    .nav-link { font-size: 1em; }
+}
+
+/*medium*/
+/* @media (min-width: 768px) {  
+    .navbar-brand {font-size:8rem;} 
+  } */
+
+/*large*/
+@media (min-width: 992px) { 
+    .navbar-brand {font-size:8.5rem;} 
+    .static-top-2 {padding-top: 0rem; }
+    .static-top-1 {padding: 0rem; }
+    #myWordForm { padding-top: 0rem; }
+    .nav-link { font-size: 1.5em; }
+  }
+
+.nav-link, {
+    font-family: 'Jost Semi';
+    letter-spacing: .2rem;
+    /* font-size: 1.5em; */
+    color: #f2f3f5;
+}
