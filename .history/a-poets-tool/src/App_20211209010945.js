@@ -10,7 +10,7 @@ class App extends Component {
   constructor(props) {
     super(props);
     //credit to https://poets.org/ for the definitions 
-    //favicon source: https://openclipart.org/detail/278672/Blue-feather
+    //favicon source: 
     this.state = {
       poemForms: [
         "Aubade: a dawn song that greets the morning while lamenting the end of the night, often concerning the parting of lovers.",
