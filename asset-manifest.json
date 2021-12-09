@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/10-final-project-individual-eezife-wustl/static/css/main.643e350a.chunk.css",
-    "main.js": "/10-final-project-individual-eezife-wustl/static/js/main.fffdcc5a.chunk.js",
-    "main.js.map": "/10-final-project-individual-eezife-wustl/static/js/main.fffdcc5a.chunk.js.map",
-    "runtime-main.js": "/10-final-project-individual-eezife-wustl/static/js/runtime-main.f2305b4e.js",
-    "runtime-main.js.map": "/10-final-project-individual-eezife-wustl/static/js/runtime-main.f2305b4e.js.map",
-    "static/js/2.44a343a9.chunk.js": "/10-final-project-individual-eezife-wustl/static/js/2.44a343a9.chunk.js",
-    "static/js/2.44a343a9.chunk.js.map": "/10-final-project-individual-eezife-wustl/static/js/2.44a343a9.chunk.js.map",
-    "static/js/3.a6bda3a4.chunk.js": "/10-final-project-individual-eezife-wustl/static/js/3.a6bda3a4.chunk.js",
-    "static/js/3.a6bda3a4.chunk.js.map": "/10-final-project-individual-eezife-wustl/static/js/3.a6bda3a4.chunk.js.map",
+    "main.css": "/10-final-project-individual-eezife-wustl/static/css/main.eecbee86.chunk.css",
+    "main.js": "/10-final-project-individual-eezife-wustl/static/js/main.25c0c447.chunk.js",
+    "main.js.map": "/10-final-project-individual-eezife-wustl/static/js/main.25c0c447.chunk.js.map",
+    "runtime-main.js": "/10-final-project-individual-eezife-wustl/static/js/runtime-main.23f07694.js",
+    "runtime-main.js.map": "/10-final-project-individual-eezife-wustl/static/js/runtime-main.23f07694.js.map",
+    "static/js/2.83442929.chunk.js": "/10-final-project-individual-eezife-wustl/static/js/2.83442929.chunk.js",
+    "static/js/2.83442929.chunk.js.map": "/10-final-project-individual-eezife-wustl/static/js/2.83442929.chunk.js.map",
+    "static/js/3.97d4aecc.chunk.js": "/10-final-project-individual-eezife-wustl/static/js/3.97d4aecc.chunk.js",
+    "static/js/3.97d4aecc.chunk.js.map": "/10-final-project-individual-eezife-wustl/static/js/3.97d4aecc.chunk.js.map",
     "index.html": "/10-final-project-individual-eezife-wustl/index.html",
-    "static/css/main.643e350a.chunk.css.map": "/10-final-project-individual-eezife-wustl/static/css/main.643e350a.chunk.css.map",
-    "static/js/2.44a343a9.chunk.js.LICENSE.txt": "/10-final-project-individual-eezife-wustl/static/js/2.44a343a9.chunk.js.LICENSE.txt",
+    "static/css/main.eecbee86.chunk.css.map": "/10-final-project-individual-eezife-wustl/static/css/main.eecbee86.chunk.css.map",
+    "static/js/2.83442929.chunk.js.LICENSE.txt": "/10-final-project-individual-eezife-wustl/static/js/2.83442929.chunk.js.LICENSE.txt",
+    "static/media/Footer.css": "/10-final-project-individual-eezife-wustl/static/media/Jost-800-Heavy.6f7596f4.ttf",
     "static/media/Header.css": "/10-final-project-individual-eezife-wustl/static/media/for_the_header_i_think_smaller.ebcbe8d7.png",
     "static/media/logo.6ce24c58.svg": "/10-final-project-individual-eezife-wustl/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f2305b4e.js",
-    "static/js/2.44a343a9.chunk.js",
-    "static/css/main.643e350a.chunk.css",
-    "static/js/main.fffdcc5a.chunk.js"
+    "static/js/runtime-main.23f07694.js",
+    "static/js/2.83442929.chunk.js",
+    "static/css/main.eecbee86.chunk.css",
+    "static/js/main.25c0c447.chunk.js"
   ]
 }
