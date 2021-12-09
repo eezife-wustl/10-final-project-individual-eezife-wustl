@@ -149,8 +149,8 @@ class App extends Component {
                     }
                   </div>
                   </div>
+                  <Header />
               </div>
-              <Footer />
       </div>
     );
   }

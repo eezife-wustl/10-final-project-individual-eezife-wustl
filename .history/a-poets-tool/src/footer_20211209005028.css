@@ -1,0 +1,38 @@
+/* @font-face {
+    font-family: 'Jost';
+    src: url('Jost-600-Semi.ttf') format('truetype');
+  } */
+  html {
+    font-size: 62.5%;
+    /*10px*/
+  }
+
+@font-face {
+    font-family: 'Jost Heavy';
+    src: url('./Jost/TrueType/Jost-800-Heavy.ttf') format('truetype');      
+}
+
+@font-face {
+    font-family: 'Jost Semi';
+    src: url('./Jost/TrueType/Jost-600-Semi.ttf') format('truetype');      
+}
+
+@font-face {
+    font-family: 'Jost Light';
+    src: url('./Jost/TrueType/Jost-300-Light.ttf') format('truetype');      
+}
+
+.static-top-1 {
+    /* padding: 5rem;  */
+    border: 1rem solid;
+}
+
+
+h1 {
+    font-family: 'Jost Light';
+    letter-spacing: 1rem;
+    /* color: white; */
+    /* font-size: 8.5em; */
+}
+
+

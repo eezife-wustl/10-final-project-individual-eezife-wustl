@@ -4,7 +4,7 @@ import _, { map } from 'underscore';
 import PoemTool from './PoemTool';
 import PoemWords from './PoemWords';
 import Header from './Header';
-import Footer from './Footer';
+import Footer from './Header';
 
 class App extends Component {
   constructor(props) {
@@ -150,7 +150,6 @@ class App extends Component {
                   </div>
                   </div>
               </div>
-              <Footer />
       </div>
     );
   }
