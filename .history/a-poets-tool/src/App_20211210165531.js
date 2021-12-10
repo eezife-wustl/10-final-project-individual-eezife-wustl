@@ -120,6 +120,13 @@ class App extends Component {
     //console.log(this.state.myPoemWords); 
   }
 
+  // pickRandomWords(myArray) {
+  //   var random = new Array(10);
+  //   for (let i=0; i < 11; i++) {
+  //     random[i] = myArray[Math.floor(Math.random() * myArray.length)];
+  //   }
+  //   return random;
+  // }
   render () {
     return (
       <div> 
