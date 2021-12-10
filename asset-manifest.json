@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/10-final-project-individual-eezife-wustl/static/css/main.1ee7931b.chunk.css",
-    "main.js": "/10-final-project-individual-eezife-wustl/static/js/main.415ad0dd.chunk.js",
-    "main.js.map": "/10-final-project-individual-eezife-wustl/static/js/main.415ad0dd.chunk.js.map",
+    "main.js": "/10-final-project-individual-eezife-wustl/static/js/main.6160000b.chunk.js",
+    "main.js.map": "/10-final-project-individual-eezife-wustl/static/js/main.6160000b.chunk.js.map",
     "runtime-main.js": "/10-final-project-individual-eezife-wustl/static/js/runtime-main.23f07694.js",
     "runtime-main.js.map": "/10-final-project-individual-eezife-wustl/static/js/runtime-main.23f07694.js.map",
-    "static/js/2.83442929.chunk.js": "/10-final-project-individual-eezife-wustl/static/js/2.83442929.chunk.js",
-    "static/js/2.83442929.chunk.js.map": "/10-final-project-individual-eezife-wustl/static/js/2.83442929.chunk.js.map",
+    "static/js/2.ac889b4c.chunk.js": "/10-final-project-individual-eezife-wustl/static/js/2.ac889b4c.chunk.js",
+    "static/js/2.ac889b4c.chunk.js.map": "/10-final-project-individual-eezife-wustl/static/js/2.ac889b4c.chunk.js.map",
     "static/js/3.97d4aecc.chunk.js": "/10-final-project-individual-eezife-wustl/static/js/3.97d4aecc.chunk.js",
     "static/js/3.97d4aecc.chunk.js.map": "/10-final-project-individual-eezife-wustl/static/js/3.97d4aecc.chunk.js.map",
     "index.html": "/10-final-project-individual-eezife-wustl/index.html",
     "static/css/main.1ee7931b.chunk.css.map": "/10-final-project-individual-eezife-wustl/static/css/main.1ee7931b.chunk.css.map",
-    "static/js/2.83442929.chunk.js.LICENSE.txt": "/10-final-project-individual-eezife-wustl/static/js/2.83442929.chunk.js.LICENSE.txt",
+    "static/js/2.ac889b4c.chunk.js.LICENSE.txt": "/10-final-project-individual-eezife-wustl/static/js/2.ac889b4c.chunk.js.LICENSE.txt",
     "static/media/Footer.css": "/10-final-project-individual-eezife-wustl/static/media/Jost-800-Heavy.6f7596f4.ttf",
     "static/media/Header.css": "/10-final-project-individual-eezife-wustl/static/media/for_the_header_i_think_smaller.ebcbe8d7.png",
     "static/media/logo.6ce24c58.svg": "/10-final-project-individual-eezife-wustl/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.23f07694.js",
-    "static/js/2.83442929.chunk.js",
+    "static/js/2.ac889b4c.chunk.js",
     "static/css/main.1ee7931b.chunk.css",
-    "static/js/main.415ad0dd.chunk.js"
+    "static/js/main.6160000b.chunk.js"
   ]
 }
