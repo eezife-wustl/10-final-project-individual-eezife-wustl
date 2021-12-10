@@ -11,7 +11,6 @@ class App extends Component {
     super(props);
     //favicon source: https://openclipart.org/detail/278672/Blue-feather
     this.state = {
-      //credit to https://poets.org/ for the definitions 
       poemForms: [
         "Aubade: a dawn song that greets the morning while lamenting the end of the night, often concerning the parting of lovers.",
         "Ballad: a plot-driven song with one or more characters and often constructed in quatrain stanzas.",
